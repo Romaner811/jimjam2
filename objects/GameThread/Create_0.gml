@@ -1,14 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-random_set_seed(date_get_second_of_year(date_current_datetime()));
-
 global.game = self;
 
-/*var player_spawn_x = room_width / 4.0;
-var player_spawn_y = room_height / 4.0;*/
-var player_spawn_x = self.x;
-var player_spawn_y = self.y;
+
+self.seed = date_get_second_of_year(date_current_datetime());
+
+var player_spawn_x = room_width / 4.0;
+var player_spawn_y = room_height / 4.0;
 
 var enemy_ais = ds_list_create();
 ds_list_add(enemy_ais,
@@ -28,8 +24,16 @@ ds_list_add(enemy_ais,
 	"ai.generic.smart",
 );
 
+
+/* Init logic: */
 self.controls_enabled = false;
 self.alarm[0] = room_speed * 5;
+self.enemies = ds_list_create();
+
+random_set_seed(self.seed);
+
+
+/* putting units */
 
 self.player = scr_unit_init(
 	instance_create_layer(
@@ -40,9 +44,6 @@ self.player = scr_unit_init(
 	"default",
 	"player"
 );
-show_debug_message(self.player.control_script);
-
-self.enemies = ds_list_create();
 
 
 for (var i = 0; i < ds_list_size(enemy_ais); i++) {

@@ -1,6 +1,10 @@
 {
 	var control_script = argument[0];
 	
+	if (not global.game.controls_enabled) {
+		return false;
+	}
+	
 	switch(control_script) {
 		
 		case noone:
