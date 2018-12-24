@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1f54c6ab-f942-4e37-8110-dfb49eafbc26",
+            "Value": {
+                "id": "bea64c91-a4fe-4dc6-af7a-1464d925f566",
+                "resourcePath": "scripts\\scr_unit\\scr_unit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "223a19c0-c2d8-408b-92e2-202f1b2f1944",
             "Value": {
                 "id": "7f4b3c84-da41-4d52-afd7-a194ef48f591",
@@ -100,14 +108,6 @@
                 "id": "2d4ec0a3-5bc6-437e-b260-c272b4311346",
                 "resourcePath": "views\\31b89d3c-bdff-4bb1-a1ca-8ecd6603a8c6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "39817fd4-c750-442e-aa8d-6f9756d55fc2",
-            "Value": {
-                "id": "753821d7-2160-43e6-a6ce-21d3a4c95c1e",
-                "resourcePath": "scripts\\scr_unit_init\\scr_unit_init.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "f4b038f8-8c25-48bb-84ee-34c1c99c9a63",
-            "Value": {
-                "id": "447c8bb4-aacc-4baa-9e9b-ba12389af27d",
-                "resourcePath": "scripts\\scr_unit_die\\scr_unit_die.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f923a827-cd49-4c3f-addd-723ece7559f7",
             "Value": {
                 "id": "7660f5da-da0b-4dda-938f-3cd5d39887ab",
@@ -320,13 +312,12 @@
         }
     ],
     "script_order": [
-        "39817fd4-c750-442e-aa8d-6f9756d55fc2",
         "3acfaf1f-486b-4ec3-ae3a-4f61af1bf011",
         "9a7c5b3b-b06b-41a4-a23e-d44f4f756034",
         "9231c610-d789-49ff-a457-9325d26b463c",
         "7cffb69e-2736-47ac-8efc-1e42d68a541e",
-        "f4b038f8-8c25-48bb-84ee-34c1c99c9a63",
-        "130e3aec-4f5e-4ec1-88cf-dbac45a82537"
+        "130e3aec-4f5e-4ec1-88cf-dbac45a82537",
+        "1f54c6ab-f942-4e37-8110-dfb49eafbc26"
     ],
     "tutorial": ""
 }

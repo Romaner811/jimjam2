@@ -35,7 +35,7 @@ random_set_seed(self.seed);
 
 /* putting units */
 
-self.player = scr_unit_init(
+self.player = scr_unit("init",
 	instance_create_layer(
 		player_spawn_x, player_spawn_y,
 		self.layer,
@@ -54,7 +54,7 @@ for (var i = 0; i < ds_list_size(enemy_ais); i++) {
 		current_enemy_y = irandom_range(Unit.sprite_height, room_height - Unit.sprite_height);
 	} until (collision_circle(current_enemy_x, current_enemy_y, Unit.sprite_width * 4, all, false, false) == noone)
 	
-	var new_enemy = scr_unit_init(
+	var new_enemy = scr_unit("init",
 		instance_create_layer(
 			current_enemy_x, current_enemy_y,
 			"Units", Unit
