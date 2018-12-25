@@ -3,8 +3,8 @@ global.game = self;
 
 self.seed = date_get_second_of_year(date_current_datetime());
 
-var player_spawn_x = room_width / 4.0;
-var player_spawn_y = room_height / 4.0;
+var player_spawn_x = room_width / 2.0;
+var player_spawn_y = room_height / 2.0;
 
 var enemy_ais = ds_list_create();
 ds_list_add(enemy_ais,
