@@ -13,7 +13,7 @@ if (
 	
 	if (other.hp == 0) {
 		if (self.owner.alive) {
-			scr_perform_soulshift(self.owner, other);
+			scr_unit("soulshift", self.owner, other);
 		}
 	}
 }

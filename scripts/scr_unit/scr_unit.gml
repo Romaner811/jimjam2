@@ -104,6 +104,17 @@
 			unit.cursor_y = unit.y;
 			break;
 		
+		case "soulshift":
+			var source = argument[1];
+			var dest = argument[2];
+			
+			//dest.sprite_index = source.sprite_index;
+			dest.control_script = source.control_script;
+			dest.hp = dest.max_hp;
+			
+			scr_unit("die", source);
+			break;
+		
 		default:
 			show_debug_message("ERROR - bad subscriptname: " + command);
 

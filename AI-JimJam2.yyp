@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "9a7c5b3b-b06b-41a4-a23e-d44f4f756034",
-            "Value": {
-                "id": "7b5e918f-9489-4291-a62e-72c1f4a5c7a8",
-                "resourcePath": "scripts\\scr_perform_soulshift\\scr_perform_soulshift.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "9d688a29-ec6d-49aa-9498-3892f8642132",
             "Value": {
                 "id": "88b9fcaf-43c9-4356-9346-23701a9dbd16",
@@ -296,7 +288,6 @@
         }
     ],
     "script_order": [
-        "9a7c5b3b-b06b-41a4-a23e-d44f4f756034",
         "7cffb69e-2736-47ac-8efc-1e42d68a541e",
         "130e3aec-4f5e-4ec1-88cf-dbac45a82537",
         "1f54c6ab-f942-4e37-8110-dfb49eafbc26"
