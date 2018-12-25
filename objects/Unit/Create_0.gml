@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-scr_unit_clean_controls();
+scr_unit("clean_controls", self);
 
 self.control_script = "player";
 self.class = "default";

@@ -91,7 +91,21 @@
 			//draw_arrow(unit.x, unit.y, unit.cursor_x, unit.cursor_y, 4);
 			break;
 		
+		case "clean_controls":
+			var unit = argument[1];
+			
+			unit.key_shift = false;
+			unit.key_attack = false;
+			unit.key_up = 0;
+			unit.key_left = 0;
+			unit.key_down = 0;
+			unit.key_right = 0;
+			unit.cursor_x = unit.x;
+			unit.cursor_y = unit.y;
+			break;
+		
 		default:
 			show_debug_message("ERROR - bad subscriptname: " + command);
+
 	}
 }

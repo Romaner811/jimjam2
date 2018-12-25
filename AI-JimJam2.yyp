@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "3acfaf1f-486b-4ec3-ae3a-4f61af1bf011",
-            "Value": {
-                "id": "8c2a6dcc-3561-4c0a-8847-d09fdbaab8e3",
-                "resourcePath": "scripts\\scr_unit_clean_controls\\scr_unit_clean_controls.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3bac64c4-a39c-4586-bda1-234bda1b00bb",
             "Value": {
                 "id": "9c6959a1-4ff8-4e36-abd7-e9c03922a929",
@@ -304,7 +296,6 @@
         }
     ],
     "script_order": [
-        "3acfaf1f-486b-4ec3-ae3a-4f61af1bf011",
         "9a7c5b3b-b06b-41a4-a23e-d44f4f756034",
         "7cffb69e-2736-47ac-8efc-1e42d68a541e",
         "130e3aec-4f5e-4ec1-88cf-dbac45a82537",
